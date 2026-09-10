@@ -23,6 +23,7 @@ module.exports = async (data) => {
             {
                 action: "talk",
                 text: `Ваш код ${digits}`,
+                provider: "google",
                 "providerOptions": {
                 "name": "uk-UA-Chirp3-HD-Achernar",
                 "language_code": "uk-UA"

@@ -22,7 +22,11 @@ module.exports = async (data) => {
         ncco: [
             {
                 action: "talk",
-                text: `Ваш код ${digits}`
+                text: `Ваш код ${digits}`,
+                "providerOptions": {
+                "name": "uk-UA-Chirp3-HD-Achernar",
+                "language_code": "uk-UA"
+      }
             }
         ]
     });

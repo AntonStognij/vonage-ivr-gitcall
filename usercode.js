@@ -1,4 +1,7 @@
 module.exports = (data) => {
-    data.test = "Hello from Vonage GitCall!";
+    data.env = {
+        test: process.env.TEST_VARIABLE
+    };
+
     return data;
 };

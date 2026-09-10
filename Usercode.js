@@ -1,11 +1,4 @@
-async function handler(input) {
-    const { phone, code } = input;
-
-    return {
-        phone,
-        code,
-        status: "received"
-    };
-}
-
-module.exports = { handler };
+module.exports = (data) => {
+    data.test = "Hello from Vonage GitCall!";
+    return data;
+};
